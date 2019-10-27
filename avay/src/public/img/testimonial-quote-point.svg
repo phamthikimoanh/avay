@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="28px" viewBox="0 0 41 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M1,1 L40,1 L40,5 L37.9940809,5 C35.2359262,5 31.4171721,6.58282793 29.4711342,8.5288658 L10.8313392,27.1686608 C9.26763372,28.7323663 8,28.2020617 8,25.9971835 L8,7.00359486 C8,5.89703997 7.11344516,5 5.99408095,5 L1,5 L1,1 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="39" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-160.000000, -2781.000000)" fill="#F3F9FE">
+            <g id="Group-2" transform="translate(160.000000, 2781.000000)">
+                <use id="Rectangle-11" stroke="#C2E9D1" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <rect id="Rectangle-8" x="0" y="0" width="41" height="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,164 @@
+.register_form {
+  .main_hero {
+    margin: 0 auto;
+  }
+}
+.main {
+  background: #f3f9fe;
+  .main_hero_signup {
+    background: white;
+    border-radius: 10px;
+
+    .btn_register {
+      width: 100%;
+      font-weight: 700;
+      border: none;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      line-height: 50px;
+      background: #00a664;
+      height: 50px;
+      color: white;
+      transition: all 0.3s ease;
+      font-size: 16px;
+
+      &:hover {
+        background: #058b56;
+      }
+    }
+
+    .select_suffix {
+      .ant-input-affix-wrapper {
+        position: absolute;
+      }
+
+      .ant-select {
+        padding-left: 40px;
+      }
+    }
+  }
+
+  .home-testimonials {
+    .home-testimonial-wrap {
+      margin: auto;
+      .text-center {
+        display: flex;
+        .title-h2 {
+          @include my-font-size(title-h2);
+          padding-left: 3%;
+        }
+      }
+      .home-testimonials-list-wrap {
+        position: relative;
+        ul.home-testimonials-list {
+          padding: 0;
+          li.cs-experience {
+            list-style: none;
+            transition: 1s;
+            opacity: 0;
+            p {
+              height: 140px;
+              border: 2px solid #c2e9d1;
+              border-radius: 10px;
+              max-height: 140px;
+              padding: 20px;
+              text-align: left;
+              display: flex;
+              align-items: center;
+              font-family: Roboto Slab;
+              font-size: 17px;
+              font-weight: 500;
+              color: #777;
+              position: relative;
+              &:after {
+                content: "";
+                background-image: url("../../public/img/testimonial-quote-point.svg");
+                position: absolute;
+                bottom: -26px;
+                left: 10px;
+                background-size: 100%;
+                display: block;
+                width: 41px;
+                height: 29px;
+              }
+              &:before {
+                content: "";
+                background-image: url(/static/media/testimonial-quote.6329e082.svg);
+                position: absolute;
+                top: -17px;
+                right: 25px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                display: block;
+                width: 50px;
+                height: 50px;
+              }
+            }
+            .home-testimonial-client {
+              display: flex;
+              flex-direction: column;
+              padding-left: 3%;
+              margin-top: 4%;
+              small {
+                font-size: 12px;
+                line-height: 2;
+              }
+            }
+            display: none;
+            &.active {
+              transition: 1s;
+              display: block;
+              animation: rightToLeft 1s forwards;
+
+              p {
+                transform: translateX(0px);
+              }
+            }
+          }
+        }
+        .home-testimonials-pag {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          position: absolute;
+          right: 0;
+          bottom: 8%;
+        }
+        .cs-experience-dot {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          padding: 4px;
+          background: #ccc;
+          margin: 5px;
+          cursor: pointer;
+          &.active {
+            background: $green;
+          }
+        }
+      }
+    }
+
+    // .home-testimonial-list-wrap {
+    //   ul {
+    //     li {
+    //       opacity: 0;
+    //     }
+    //     &.active {
+    //       animation: leftToRight 0.5s forwards;
+    //     }
+    //   }
+    // }
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

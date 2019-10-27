@@ -1,0 +1,130 @@
+.app_header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background: linear-gradient(134deg, #05a468, #1d8ba1);
+
+  ul.ant-menu-horizontal {
+    background: none;
+    border-bottom: 0;
+
+    > li.ant-menu-item {
+      position: relative;
+      border: 0;
+
+      a.nav-item {
+        color: #fff;
+
+        &.active {
+          border-bottom: 2px solid #fff;
+        }
+
+        //&:after {
+        //  content: "";
+        //  position: absolute;
+        //  bottom: 2px;
+        //  left: 0;
+        //  width: 0;
+        //  background-color: hsla(0, 0%, 100%, 0.2);
+        //  transition: all 0.2s ease;
+        //}
+      }
+
+      &:hover .active:after {
+        width: 0;
+      }
+
+      &:hover a:after {
+        width: 100%;
+        //background-color: hsla(0, 0%, 100%, 0.7);
+        background: transparent;
+        margin: 0 auto;
+        height: 0;
+      }
+
+      &:hover {
+        color: transparent !important;
+        background: transparent !important;
+        border: 0;
+      }
+
+      .ant-btn-primary {
+        color: #ffffff;
+        background-color: #ffffff29;
+        border-color: #ffffff38;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+        -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+        border-radius: 25px;
+        font-size: 14px;
+
+        &:hover {
+          background-color: $white;
+          color: $bggreen;
+        }
+      }
+    }
+
+    & > .ant-menu-item-selected {
+      color: transparent !important;
+      background: transparent !important;
+      border: 0;
+    }
+
+    & > .ant-menu-item-active {
+      color: transparent !important;
+      background: transparent !important;
+      border: 0;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(134deg, $bggreen, $bgblue);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 12px 0;
+  color: #fff;
+  z-index: 11;
+  height: 6%;
+
+  .logo_call {
+    display: flex;
+    align-items: center;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      padding: 0 5px;
+
+      img {
+        height: 32px;
+      }
+    }
+
+    .logo {
+      color: #fff;
+      display: inline-block;
+      position: relative;
+      line-height: 36px;
+      margin-right: 20px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 17px;
+        background-color: hsla(0, 0%, 100%, 0.2);
+        left: 120px;
+        bottom: 13px;
+        pointer-events: none;
+      }
+    }
+  }
+}

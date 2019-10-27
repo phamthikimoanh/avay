@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="32px" viewBox="0 0 27 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>home-feature-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.0110191626,3.34223186 L6.31761267,3.34223186 L13.7129172,0 L20.5264864,3.34223186 L26.9672108,3.34223186 C26.9672108,3.34223186 27.0409865,8.01989746 26.9672108,18.1711159 C26.8934352,28.3223344 13.7129172,31.8422319 13.7129172,31.8422319 C13.7129172,31.8422319 0.0358122785,27.8024821 0.0110191626,18.1711159 C-0.0137739533,8.53974976 0.0110191626,3.34223186 0.0110191626,3.34223186 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="27" height="31.8422319" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M2.00938669,4.93894262 L7.38167005,4.93894262 L13.6813739,2 L19.4855254,4.93894262 L24.9720685,4.93894262 C24.9720685,4.93894262 25.0349144,9.05217932 24.9720685,17.9785045 C24.9092226,26.9048297 13.6813739,30 13.6813739,30 C13.6813739,30 2.03050676,26.4477052 2.00938669,17.9785045 C1.98826663,9.50930382 2.00938669,4.93894262 2.00938669,4.93894262 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23" height="28" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="13.5 18.75 9.09161061 21.0676275 9.93353806 16.1588137 6.36707613 12.6823725 11.2958053 11.9661863 13.5 7.5 15.7041947 11.9661863 20.6329239 12.6823725 17.0664619 16.1588137 17.9083894 21.0676275"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.2658477" height="13.5676275" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1020.000000, -1384.000000)">
+            <g id="home-feature-4" transform="translate(1020.000000, 1384.000000)">
+                <use id="Rectangle-9" stroke="#00A664" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M13.6813739,2 L19.4855254,4.93894262 L24.9720685,4.93894262 C24.9720685,4.93894262 25.0349144,9.05217932 24.9720685,17.9785045 C24.9092226,26.9048297 13.6813739,30 13.6813739,30 L13.6813739,2 Z" id="Rectangle-9" fill="#D1EEDC"></path>
+                <use id="Rectangle-9" stroke="#00A664" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                <use id="Star" stroke="#00A664" mask="url(#mask-6)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

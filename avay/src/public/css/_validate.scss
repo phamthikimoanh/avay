@@ -1,0 +1,46 @@
+// màu chữ
+$white: #fff;
+$greatLightGray: hsla(0, 0%, 100%, 0.7);
+$black: #000;
+$lightGrayBlue: #6484a0;
+$gray: #4d4d4d;
+$green: #00a664;
+
+//màu nền
+$bggreen: #01a566;
+$bgblue: #2178cf;
+$bg: #f3f9fe;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC,
+    Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  background: bg;
+}
+//padding between div
+@mixin space-div-section {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  padding: 100px 0;
+  position: relative;
+  padding-bottom: 48px;
+}
+//font size for tag h
+@mixin my-font-size($font) {
+  @if ($font == title-h1) {
+      font-size: 28px;text-transform: inherit;
+  }
+  @else if ($font == title-h2) {
+    font-size: 24px;text-transform: inherit;
+  }
+  @else if ($font == title-h3) {
+    font-size: 18px;text-transform: inherit;
+  }
+  @else {
+    line-height: 24px;font-size: 14px;text-transform: inherit;
+  }
+}

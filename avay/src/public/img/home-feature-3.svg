@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="25px" viewBox="0 0 38 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>home-feature-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="0" width="30" height="25"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="25" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="6" y="2" width="26" height="22" rx="1"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="22" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M0,20.9998075 C0,20.4476291 0.437862756,20 1.00678882,20 L12.3027885,20 L12.3027885,22 L24.8517462,22 L24.8517462,20 L36.9901106,20 C37.5478571,20 38,20.4437166 38,20.9998075 L38,22.5 C38,23.8807119 36.8833117,25 35.5067139,25 L2.49328613,25 C1.11628222,25 0,23.8903379 0,22.5 L0,20.9998075 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38" height="5" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M18.7248464,14 C17.2261565,14 16,15.2261565 16,16.7248464 C16,18.2235362 17.2261565,19.4496928 18.7248464,19.4496928 C20.2235362,19.4496928 21.4496928,18.2235362 21.4496928,16.7248464 C21.4496928,15.2261565 20.2235362,14 18.7248464,14 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5.44969275" height="5.44969275" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-718.000000, -1388.000000)">
+            <g id="home-feature-3" transform="translate(718.000000, 1388.000000)">
+                <use id="Rectangle-2" stroke="#1AAB51" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <use id="Rectangle-2" stroke="#1AAB51" mask="url(#mask-4)" stroke-width="2" fill="#D1EEDC" xlink:href="#path-3"></use>
+                <use id="Rectangle-2" stroke="#1AAB51" mask="url(#mask-6)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-5"></use>
+                <path d="M27.1604245,9.73443478 C27.3017768,9.87070145 27.4430449,9.9387942 27.6550313,9.9387942 C27.8670176,9.9387942 28.0083699,9.87070145 28.2203563,9.73443478 C28.5029767,9.46198261 28.5029767,9.05326377 28.2203563,8.78073043 C22.9912471,3.73975652 14.4410745,3.73975652 9.21196531,8.78073043 C8.9293449,9.05318261 8.9293449,9.46190145 9.21196531,9.73443478 C9.49458573,10.006887 9.91855845,10.006887 10.2012631,9.73443478 C14.8650472,5.23844638 22.4966404,5.23844638 27.1604245,9.73443478 Z" id="Shape" fill="#1AAB51"></path>
+                <path d="M25.1084652,11.7466435 C25.2588987,11.8829101 25.4092426,11.9510029 25.6348481,11.9510029 C25.8604536,11.9510029 26.0108871,11.8829101 26.161231,11.7466435 C26.4620084,11.4741913 26.4620084,11.0654725 26.161231,10.7929391 C24.2059537,9.0217971 21.498688,8 18.7161608,8 C15.9336336,8 13.2263679,9.0217971 11.2710906,10.7929391 C10.9703132,11.0653913 10.9703132,11.4741101 11.2710906,11.7466435 C11.571868,12.0190957 12.023079,12.0190957 12.323946,11.7466435 C14.0536178,10.1798609 16.3096726,9.36242319 18.7161608,9.36242319 C21.1226491,9.36242319 23.3787934,10.2479536 25.1084652,11.7466435 Z" id="Shape" fill="#1AAB51"></path>
+                <path d="M14.3227575,12.7881652 C14.044106,13.0606174 14.044106,13.4693362 14.3227575,13.7418696 C14.601409,14.0143217 15.0194277,14.0143217 15.2981622,13.7418696 C17.1792465,11.9026348 20.31447,11.9026348 22.1955543,13.7418696 C22.3349216,13.8781362 22.4742058,13.946229 22.6832152,13.946229 C22.8225824,13.946229 23.0315918,13.8781362 23.170876,13.7418696 C23.4495275,13.4694174 23.4495275,13.0606986 23.170876,12.7881652 C20.7324057,10.4039449 16.7612278,10.4039449 14.3227575,12.7881652 Z" id="Shape" fill="#1AAB51"></path>
+                <use id="Path" stroke="#1AAB51" mask="url(#mask-8)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>

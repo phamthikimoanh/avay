@@ -1,0 +1,123 @@
+.home-feature {
+  @include space-div-section;
+  .title-h2 {
+    @include my-font-size(title-h2);
+    text-align: center;
+  }
+  .feature-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.home-feature-info {
+  margin-top: 48px;
+  padding: 0 15px;
+  span {
+    line-height: 32px;
+    height: 32px;
+    display: block;
+    margin-bottom: 10px;
+    img {
+      font-size: 30px;
+    }
+  }
+  .title-h3 {
+    color: $green;
+    @include my-font-size(title-h3);
+  }
+}
+// about-feature
+.about-feature {
+  .about-feature-info {
+    padding: 6vh;
+    text-align: center;
+    border: 1px solid #e4e5e5;
+    background: #fff;
+    border-radius: 8px;
+    margin: 1vw;
+    width: 33.333%;
+    span {
+      line-height: 32px;
+      height: 32px;
+      display: block;
+      margin-bottom: 10px;
+      img {
+        font-size: 50px;
+      }
+    }
+    .title-h3 {
+      max-width: 250px;
+      margin-top: 16px;
+      color: #555;
+      font-size: 18px;
+      &:after {
+        content: "";
+        width: 40px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #00a664;
+        display: block;
+        margin: 24px auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    p {
+      color: #4e4e4e;
+      line-height: 24px;
+    }
+  }
+}
+.home-testimonials {
+  @include space-div-section;
+  .title-h2 {
+    @include my-font-size(title-h2);
+    text-align: center;
+  }
+  .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.block_card {
+  display: flex;
+  flex-direction: row;
+  width: 33.33333%;
+  max-width: 100%;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  .title-h3 {
+    color: $green;
+    font-weight: 600;
+    margin-bottom: 0;
+    @include my-font-size(title-h3);
+  }
+  .logo {
+    img {
+      height: 48px;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+}
+
+.about-single {
+  .block_card {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 100px 0;
+    position: relative;
+    padding-bottom: 48px;
+  }
+}
+//title
+.title-main{
+  width: 40%;
+  margin: auto;
+}
